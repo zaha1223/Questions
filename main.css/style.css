@@ -1,0 +1,53 @@
+body {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url(../imgs/html.png);
+  background-size: contain;
+}
+.css {
+  background-image: url(../imgs/css.png);
+  background-size: contain;
+}
+.java {
+  background-image: url(../imgs/java.png);
+  background-size: contain;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.btn1 {
+  display: inline-block;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: red;
+}
+.btn2 {
+  display: inline-block;
+  padding: 8px 56px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: lightskyblue;
+}
+.btn3 {
+  display: inline-block;
+  padding: 8px 56px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: yellow;
+}
